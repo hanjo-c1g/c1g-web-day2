@@ -14,4 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.removeProperty('background-color');
   });
 
+
+  // task 2: dark mode toggler
+  const darkModeButton = document.querySelector("#darkModeButton");
+  
+  // Dark/Light Mode Switcher
+  darkModeButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+  });
+
 });
