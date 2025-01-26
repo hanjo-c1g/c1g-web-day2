@@ -13,28 +13,21 @@
 1. Ergänze die Funktionalität, dass die Hintergrundfarbe bei jedem Klick zufällig ausgewählt wird.
 2. Ergänze einen "Zurücksetzen"-Button, der die Hintergrundfarbe wieder auf den Standardwert (`#f0f0f0`) setzt.
 
-### Aufgabe 4: Dark/Light Mode
+### Aufgabe 2: Dark/Light Mode
 
-1. Ergänze die Funktionalität, um zwischen einem "Dark Mode" und "Light Mode" umzuschalten.
-2. Schreibe dazu separate Styles in der Datei `assets/styles.css`
+1. Füge nun einen weiteren Button hinzu, um zwischen einem "Dark Mode" und "Light Mode" umzuschalten.
+2. Du kannst dazu separate Styles in der Datei `assets/styles.css` schreiben oder eigene Style Dateien anlegen.
 
-### Aufgabe 3: Tooltip
+### Aufgabe 3: ToDo Liste
 
-1. Ergänze den Tooltip, der beim Hovern über den Text "Tooltip anzeigen" erscheint.
-2. Experimentiere mit den Farben und Positionen des Tooltips.
+Implementiere eine einfache ToDo Liste mit JavaScript und HTML
 
-
-### Aufgabe 2: Liste bearbeiten
-
-1. Füge die Funktionalität hinzu, dass der Button "Eintrag hinzufügen" neue Elemente zur Liste hinzufügt.
-2. Füge die Funktionalität hinzu, dass der Button "Eintrag entfernen" das letzte Element aus der Liste entfernt.
-
-### Fortgeschrittene Aufgabe: Spezifische Zeilen entfernen
-
-1. Ergänze neben jedem Listeneintrag einen eigenen Button "Entfernen".
-2. Stelle sicher, dass der Klick auf diesen Button nur den jeweiligen Eintrag aus der Liste entfernt.
+1. Es soll ein Eingabefeld für den Text des ToDos geben und einen Button um das ToDo einer HTML Liste hinzuzufügen
+2. In jeder Zeile soll es eine Checkbox geben, welche den Text des ToDos durchstreicht wenn sie angehakt ist
+3. Es soll in jeder Zeile einen Button geben um das ToDo wieder aus der Liste zu entfernen
 
 ## Hinweise
+
 - Nutze `document.createElement()` und `appendChild()` für die Liste.
 - Experimentiere mit Event-Listenern und DOM-Methoden wie `.remove()`.
 
